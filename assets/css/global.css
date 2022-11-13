@@ -5,13 +5,17 @@
 
 body {
     background-color: #f6f8fc;
+    background-image: url("../Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
 }
 
 @media screen and (min-width: 992px) {
